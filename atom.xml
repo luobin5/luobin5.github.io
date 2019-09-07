@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
-    <title>luobin5&apos;s Blog</title>
-    <updated>2019-09-07T02:16:41.631Z</updated>
+    <title>洛滨</title>
+    <updated>2019-09-07T02:17:40.826Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
     <subtitle>洛滨的个人博客</subtitle>
     <logo>https://luobin5.github.io/images/avatar.png</logo>
     <icon>https://luobin5.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, luobin5&apos;s Blog</rights>
+    <rights>All rights reserved 2019, 洛滨</rights>
 </feed>
