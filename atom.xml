@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-07T02:48:39.081Z</updated>
+    <updated>2019-09-07T03:31:46.905Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -10,4 +10,14 @@
     <logo>https://luobin5.github.io/images/avatar.png</logo>
     <icon>https://luobin5.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 洛滨</rights>
+    <entry>
+        <title type="html"><![CDATA[我的新博客]]></title>
+        <id>https://luobin5.github.io/post/wo-de-xin-bo-ke</id>
+        <link href="https://luobin5.github.io/post/wo-de-xin-bo-ke">
+        </link>
+        <updated>2019-09-07T03:10:52.000Z</updated>
+        <content type="html"><![CDATA[<p>暑假试用了云主机和云服务器搭建WordPress博客网站，但是由于续费有点贵，所以现在利用Github Pages搭建了博客。教程来源于https://fehey.com/post/hve-notes-start/，项目及下载来源https://github.com/getgridea/gridea。有兴趣的可以去学习搭建自己的个人博客。<br>
+利用Gridea基于Github搭建个人博客是比较方便的一种方法，如果你有更好的耐心和能力，可以尝试Hexo结合Github做个人博客。或者，如果你有云主机或者云服务器，可以搭建搭建主题功能更多的WordPress博客。</p>
+]]></content>
+    </entry>
 </feed>
