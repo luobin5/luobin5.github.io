@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-08T12:34:42.468Z</updated>
+    <updated>2019-09-08T13:09:24.178Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -10,6 +10,43 @@
     <logo>https://luobin5.github.io/images/avatar.png</logo>
     <icon>https://luobin5.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 洛滨</rights>
+    <entry>
+        <title type="html"><![CDATA[百度网盘满速技巧手机篇（1）——Termux+BaiduPCS]]></title>
+        <id>https://luobin5.github.io/post/baidu1</id>
+        <link href="https://luobin5.github.io/post/baidu1">
+        </link>
+        <updated>2019-07-20T12:43:13.000Z</updated>
+        <content type="html"><![CDATA[<p>此方法是使用Termux+<a href="https://github.com/GangZhuo/BaiduPCS">BaiduPCS</a>的Web进行下载百度网盘文件，更多使用方法请参考原项目：<a href="https://github.com/GangZhuo/BaiduPCS">BaiduPCS</a>。</p>
+<p>下面是正式教程：</p>
+<ol>
+<li>下载高级终端<a href="http://www.coolapk.com/apk/com.termux">Termux</a></li>
+<li>打开Termux，等待install（尽量在网络良好的条件，可能需要“梯子”），完成了界面会出现英文</li>
+<li>切换为清华源（此处可选，主要是安装wget时快一点），过程要输入Y，完成这步要结束Termux后台重新进入软件开始第4步</li>
+</ol>
+<pre><code>sed -i 's@^\(deb.*stable main\)$@#\1\ndeb
+https://mirrors.tuna.tsinghua.edu.cn/termux stable main@' $PREFIX/etc/apt/sources.list
+apt update &amp;&amp; apt upgrade
+</code></pre>
+<ol start="4">
+<li>安装wget<br>
+<code>pkg install wget</code></li>
+<li>下载压缩包（下载有点慢，请耐心等待，保持Termux运行，如果中断要清除Termux数据重来）<br>
+<code>wget https://github.com/liuzhuoling2011/baidupcs-web/releases/download/3.6.8/BaiduPCS-Go-3.6.8-android-arm64.zip</code></li>
+<li>解压压缩包<br>
+<code>unzip BaiduPCS-Go-3.6.8-android-arm64.zip</code></li>
+<li>给软件读取存储权限<br>
+<code>termux-setup-storage</code></li>
+<li>运行<br>
+<code>./BaiduPCS-Go-3.6.8-android-arm64/BaiduPCS-Go</code></li>
+<li>打开浏览器（建议使用Chrome浏览器），地址栏输入localhost:5299，登录百度账号即可进行文件下载</li>
+</ol>
+<ul>
+<li>注意:下载过程中不能结束Termux的后台，下次使用只要没有清除掉Termux的数据就可以直接在Termux输入<code>./BaiduPCS-Go-3.6.8-android-arm64/BaiduPCS-Go</code>就可以接着第8步使用了</li>
+</ul>
+<p>此方法要登录百度网盘账号，下载过多可能会被拉“小黑屋”（账号限速），此方法可能就会短暂失效。不过不用担心，被拉“小黑屋”后，等待几天或者直接开百度网盘会员，下载速度应该就会恢复。</p>
+<p>此方法建议用于临时紧急下载百度网盘文件或者会员下载提速仍然很慢的时候，若在百度网盘有比较大的下载需求，建议支持正版百度网盘并开通百度网盘会员。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我的新博客]]></title>
         <id>https://luobin5.github.io/post/newblog</id>
