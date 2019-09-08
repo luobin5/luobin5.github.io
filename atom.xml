@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-08T13:38:51.211Z</updated>
+    <updated>2019-09-08T13:46:26.561Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -27,7 +27,7 @@
 ④打开ADM Pro，点击左上角≡＞设置＞下载（滑至底部）＞浏览器标识，选择“Opera浏览器9.80”（或者选择“自定义”并在最底部“自定义浏览器标识”输入<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code>并确定）。为方便，可以先设置ADM Pro的线程为64-128，如果经常下载的文件比较大，可以直接拉至2048线程<br>
 <img src="https://luobin5.github.io/post-images/1567949461276.jpg" alt=""></p>
 <p><strong>开始使用</strong><br>
-④打开度享链，输入自己或者别人分享的百度网盘文件分享链接和密码（如果没有密码则不填），点“开始”然后就可以看到分享的文件。<img src="https://luobin5.github.io/post-images/1567949611276.jpg" alt=""></p>
+④打开度享链，输入自己或者别人分享的百度网盘文件分享链接和密码（如果没有密码则不填），点“开始”然后就可以看到分享的文件<img src="https://luobin5.github.io/post-images/1567950243931.jpg" alt=""></p>
 <p><strong>下载速度展示</strong><br>
 <img src="https://luobin5.github.io/post-images/1567949736576.jpg" alt=""></p>
 <p>因为不用登录百度网盘账号，这种方法是比较好的，不用担心账号被拉进“小黑屋”（限速）。但是，度享链提取直链有时候不稳定，多试几次或者结束应用稍等再提取直链就可以了。另外，度享链提取的直链可以复制出来在电脑和手机的ADM和IDM上下载，前提是设置了相同的UA。</p>
