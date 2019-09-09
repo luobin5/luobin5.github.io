@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>我的新博客 | 洛滨</title>
+<title>百度网盘满速技巧手机篇（3）Pandownlaod | 洛滨</title>
 <meta name="description" content="洛滨的个人博客">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -92,28 +92,55 @@
       <div class="content-container">
         <div class="post-detail">
           
-            <div class="feature-container" style="background-image: url('https://luobin5.github.io/post-images/newblog.jpg')">
-            </div>
-          
-          <h2 class="post-title">我的新博客</h2>
+          <h2 class="post-title">百度网盘满速技巧手机篇（3）Pandownlaod</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-07-13</span>
+            <span><i class="icon-calendar-outline"></i> 2019-09-09</span>
             
           </div>
           <div class="post-content">
-            <p>我试用过云主机和云服务器搭建WordPress博客网站，但是由于续费期限以及数据等问题，所以现在利用<a href="https://github.com/getgridea/gridea/">Gridea</a>基于Github Pages搭建了<a href="https://luobin5.github.io">新博客</a>。</p>
-<p>利用Gridea基于Github搭建个人博客是比较方便的一种方法，写文章以及同步都可以在Win客户端上完成，所以使用相对简单。如果你也有兴趣搭建个人博客，但是没有云主机or云服务器，你也可以尝试使用Gridea+Github Pages来搭建。<br>
-教程：<a href="https://fehey.com/post/hve-notes-start/">Gridea小白教程</a>，以及项目<a href="https://github.com/getgridea/gridea">地址</a>，Gridea<a href="https://gridea.dev/">主页</a>。</p>
-<p>如果你有更好的耐心，可以尝试Hexo+Github搭建个人博客。或者，如果你有云主机or云服务器，可以使用主题和功能更多的WordPress搭建个人博客。</p>
+            <h2 id="pandownlaod">Pandownlaod</h2>
+<p>Win版<a href="http://pandownload.com/">http://pandownload.com/</a><br>
+安卓版<a href="https://www.linesoft.top/archives/11/">https://www.linesoft.top/archives/11/</a><br>
+网页版<a href="https://www.baiduwp.com/">https://www.baiduwp.com/</a></p>
+<p>Win版和安卓版下载相应的客户端和应用登录百度网盘账号就可以使用，因为要登录账号，可能会被拉进“小黑屋”，所以这里重点介绍网页版的使用。网页版的下载方式有两种：</p>
+<h2 id="1改浏览器ua">1.改浏览器UA</h2>
+<p>手机浏览器：雨见浏览器、Via浏览器等可以修改UA的浏览器</p>
+<p>修改浏览器UA为<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code></p>
+<p>打开<a href="https://www.baiduwp.com/">Pandownlaod网页版</a>输入自己或者别人的网盘文件分享链接和提取码（没有提取码则不填），点击“打开”再点击文件，选择它提示的“高速”下载地址下载，下载时请不要调用其它下载器</p>
+<p>另外，安卓的kiwi浏览器、Yandex浏览器可以安装插件<a href="https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg">User-Agent Switcher for Chrome</a>（需要“爬墙”才能下载），插件设置UA为Opera即可</p>
+<p>电脑Chrome浏览器等，同安装<a href="https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg">User-Agent Switcher for Chrome插件</a>设置UA为Opera</p>
+<blockquote>
+<p>参考来源http://pandownload.com/faq/ua.html</p>
+</blockquote>
+<ul>
+<li>注意：不改浏览器UA获取不了高速下载地址甚至不能下载</li>
+</ul>
+<h2 id="2aria2下载">2.Aria2下载</h2>
+<p>首先，安装好<a href="https://www.coolapk.com/apk/com.gianlu.aria2app">Aria2远程下载</a>（若链接出错请在酷安或者其它应用平台下载该应用）</p>
+<p>打开Aria2，点击主界面右下角启动服务<br>
+<img src="https://luobin5.github.io/post-images/1568023370584.jpg" alt=""></p>
+<p>打开Pandownlaod网页版（不用修改UA），点开文件到“使用Aria2下载”，填写如下：</p>
+<blockquote>
+<p>主机：127.0.0.1<br>
+端口：6800<br>
+密钥：123456<br>
+路径：/storage/emulated/0/Download/<br>
+点击确定就可以快速下载了</p>
+</blockquote>
+<p><img src="https://luobin5.github.io/post-images/1568023319210.jpg" alt=""></p>
+<p>下载进度和管理可以在Aria2应用点击左上角≡，在“管理器”里查看，点击管理器界面左下角≡可以查看更多相关设置<br>
+<img src="https://luobin5.github.io/post-images/1568023330492.jpg" alt=""></p>
+<p>注意：使用Aria2下载要先启动Aria2的服务，不用时停止服务</p>
+<p>Pandownload建议使用网页版，因为不用登录账号。如果想使用方便，可以使用客户端和应用</p>
 
           </div>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://luobin5.github.io/post/test">
+            <a class="purple-link" href="https://luobin5.github.io/post/baidu2">
               <h3 class="post-title">
-                下一篇：Test
+                下一篇：百度网盘满速技巧手机篇（2）度享链+ADM
               </h3>
             </a>
           </div>

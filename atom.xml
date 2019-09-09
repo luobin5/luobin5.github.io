@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-09T03:30:09.369Z</updated>
+    <updated>2019-09-09T10:11:37.703Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -11,11 +11,53 @@
     <icon>https://luobin5.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 洛滨</rights>
     <entry>
+        <title type="html"><![CDATA[百度网盘满速技巧手机篇（3）Pandownlaod]]></title>
+        <id>https://luobin5.github.io/post/baidu3</id>
+        <link href="https://luobin5.github.io/post/baidu3">
+        </link>
+        <updated>2019-09-09T09:51:28.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="pandownlaod">Pandownlaod</h2>
+<p>Win版<a href="http://pandownload.com/">http://pandownload.com/</a><br>
+安卓版<a href="https://www.linesoft.top/archives/11/">https://www.linesoft.top/archives/11/</a><br>
+网页版<a href="https://www.baiduwp.com/">https://www.baiduwp.com/</a></p>
+<p>Win版和安卓版下载相应的客户端和应用登录百度网盘账号就可以使用，因为要登录账号，可能会被拉进“小黑屋”，所以这里重点介绍网页版的使用。网页版的下载方式有两种：</p>
+<h2 id="1改浏览器ua">1.改浏览器UA</h2>
+<p>手机浏览器：雨见浏览器、Via浏览器等可以修改UA的浏览器</p>
+<p>修改浏览器UA为<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code></p>
+<p>打开<a href="https://www.baiduwp.com/">Pandownlaod网页版</a>输入自己或者别人的网盘文件分享链接和提取码（没有提取码则不填），点击“打开”再点击文件，选择它提示的“高速”下载地址下载，下载时请不要调用其它下载器</p>
+<p>另外，安卓的kiwi浏览器、Yandex浏览器可以安装插件<a href="https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg">User-Agent Switcher for Chrome</a>（需要“爬墙”才能下载），插件设置UA为Opera即可</p>
+<p>电脑Chrome浏览器等，同安装<a href="https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg">User-Agent Switcher for Chrome插件</a>设置UA为Opera</p>
+<blockquote>
+<p>参考来源http://pandownload.com/faq/ua.html</p>
+</blockquote>
+<ul>
+<li>注意：不改浏览器UA获取不了高速下载地址甚至不能下载</li>
+</ul>
+<h2 id="2aria2下载">2.Aria2下载</h2>
+<p>首先，安装好<a href="https://www.coolapk.com/apk/com.gianlu.aria2app">Aria2远程下载</a>（若链接出错请在酷安或者其它应用平台下载该应用）</p>
+<p>打开Aria2，点击主界面右下角启动服务<br>
+<img src="https://luobin5.github.io/post-images/1568023370584.jpg" alt=""></p>
+<p>打开Pandownlaod网页版（不用修改UA），点开文件到“使用Aria2下载”，填写如下：</p>
+<blockquote>
+<p>主机：127.0.0.1<br>
+端口：6800<br>
+密钥：123456<br>
+路径：/storage/emulated/0/Download/<br>
+点击确定就可以快速下载了</p>
+</blockquote>
+<p><img src="https://luobin5.github.io/post-images/1568023319210.jpg" alt=""></p>
+<p>下载进度和管理可以在Aria2应用点击左上角≡，在“管理器”里查看，点击管理器界面左下角≡可以查看更多相关设置<br>
+<img src="https://luobin5.github.io/post-images/1568023330492.jpg" alt=""></p>
+<p>注意：使用Aria2下载要先启动Aria2的服务，不用时停止服务</p>
+<p>Pandownload建议使用网页版，因为不用登录账号。如果想使用方便，可以使用客户端和应用</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[百度网盘满速技巧手机篇（2）度享链+ADM]]></title>
         <id>https://luobin5.github.io/post/baidu2</id>
         <link href="https://luobin5.github.io/post/baidu2">
         </link>
-        <updated>2019-09-08T13:26:24.000Z</updated>
+        <updated>2019-08-25T13:26:24.000Z</updated>
         <content type="html"><![CDATA[<h3 id="安装应用"><strong>安装应用</strong></h3>
 <p>①下载<a href="https://www.lanzous.com/b907844">度享链</a>并安装<br>
 附：<a href="https://www.coolapk.com/feed/13381161?shareKey=YjMzMmZkYmY5MmNiNWQ3NGI4MGI~&amp;shareUid=2190952&amp;shareFrom=com.coolapk.market_9.5">软件来源</a><br>
@@ -27,7 +69,7 @@
 ④打开ADM Pro，点击左上角≡＞设置＞下载（滑至底部）＞浏览器标识，选择“Opera浏览器9.80”（或者选择“自定义”并在最底部“自定义浏览器标识”输入<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code>并确定）。为方便，可以先设置ADM Pro的线程为64-128，如果经常下载的文件比较大，可以直接拉至2048线程<br>
 <img src="https://luobin5.github.io/post-images/1567949461276.jpg" alt=""></p>
 <h3 id="开始使用"><strong>开始使用</strong></h3>
-<p>④打开度享链，输入自己或者别人分享的百度网盘文件分享链接和密码（如果没有密码则不填），点“开始”然后就可以看到分享的文件。点击文件提取直链然后选择ADM下载，这样就可以快速下载百度网盘的文件了。<br>
+<p>④打开度享链，输入自己或者别人分享的百度网盘文件分享链接和提取码（如果没有提取码则不填），点“开始”然后就可以看到分享的文件。点击文件提取直链然后选择ADM下载，这样就可以快速下载百度网盘的文件了。<br>
 <img src="https://luobin5.github.io/post-images/1567991489034.jpg" alt=""></p>
 <h3 id="下载速度展示"><strong>下载速度展示</strong></h3>
 <p><img src="https://luobin5.github.io/post-images/1567949736576.jpg" alt=""></p>
@@ -93,6 +135,7 @@ apt update &amp;&amp; apt upgrade
 <strong><code>./BaiduPCS-Go-3.6.8-android-arm64/BaiduPCS-Go</code></strong></li>
 </ul>
 <p>此方法要登录百度网盘账号，下载过多可能会被拉“小黑屋”（账号限速），此方法可能就会短暂失效。不过不用担心，被拉“小黑屋”后，等待几天或者直接开百度网盘会员，下载速度应该就会恢复。</p>
+<p>另外，BaidiPCS-Go有客户端，项目地址为<a href="https://github.com/iikira/BaiduPCS-Go">https://github.com/iikira/BaiduPCS-Go</a>。由于我没有使用过，在这里就不作介绍，有需求和兴趣的可以下载尝试。</p>
 <p>此方法建议用于临时紧急下载百度网盘文件或者会员下载提速仍然很慢的时候，若在百度网盘有比较大的下载需求，建议支持正版百度网盘并开通百度网盘会员。</p>
 ]]></content>
     </entry>
