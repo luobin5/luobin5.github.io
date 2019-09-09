@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-09T10:35:09.583Z</updated>
+    <updated>2019-09-09T11:30:34.452Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -139,6 +139,106 @@ apt update &amp;&amp; apt upgrade
 <p>此方法要登录百度网盘账号，下载过多可能会被拉“小黑屋”（账号限速），此方法可能就会短暂失效。不过不用担心，被拉“小黑屋”后，等待几天或者直接开百度网盘会员，下载速度应该就会恢复。</p>
 <p>另外，BaidiPCS-Go有客户端，项目地址为<a href="https://github.com/iikira/BaiduPCS-Go">https://github.com/iikira/BaiduPCS-Go</a>。由于我没有使用过，在这里就不作介绍，有需求和兴趣的可以下载尝试。</p>
 <p>此方法建议用于临时紧急下载百度网盘文件或者会员下载提速仍然很慢的时候，若在百度网盘有比较大的下载需求，建议支持正版百度网盘并开通百度网盘会员。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[支付宝星星球Auto.js]]></title>
+        <id>https://luobin5.github.io/post/autojs1</id>
+        <link href="https://luobin5.github.io/post/autojs1">
+        </link>
+        <updated>2019-07-20T11:08:16.000Z</updated>
+        <content type="html"><![CDATA[<p>下载安装<a href="https://github.com/hyb1996/Auto.js">Auto.js</a>（请在其它平台下载）<br>
+打开Auto.js，开启无障碍服务。新建js文件（可以命名为“星星球”）输入以下脚本代码保存即可运行<br>
+<img src="https://luobin5.github.io/post-images/1568028183505.jpg" alt=""></p>
+<pre><code>auto();
+
+const WIDTH = Math.min(device.width, device.height);
+const HEIGHT = Math.max(device.width, device.height);
+
+start();
+function start() {
+    var timeout = 10000;
+    // 截图权限申请
+    threads.start(function () {
+        var remember;
+        var beginBtn;
+        if (remember = id(&quot;com.android.systemui:id/remember&quot;).checkable(true).findOne(timeout)) {
+            remember.click();
+        }
+        if (beginBtn = classNameContains(&quot;Button&quot;).textContains(&quot;立即开始&quot;).findOne(timeout)) {
+            beginBtn.click();
+        }
+    });
+    if (!requestScreenCapture(false)) {
+        toastLog(&quot;请求截图失败&quot;);
+        exit();
+    }
+
+    toast(&quot;打开星星球界面&quot;);
+    app.startActivity({
+        action: &quot;VIEW&quot;,
+        data: &quot;alipays://platformapi/startapp?appId=66666782&quot;
+    });
+    waitForActivity(&quot;com.alipay.mobile.nebulacore.ui.H5Activity&quot;);
+    toast(&quot;进入星星球成功&quot;);
+    sleep(5000);
+
+    var antManor = new AntManor();
+
+    antManor.play();
+
+    exit();
+}
+
+function AntManor() {
+    this.colors = [&quot;#FF4C4C&quot;, &quot;#4E86FF&quot;];
+    this.find_time = 5000;
+
+    this.play = function () {
+        var len = this.colors.length;
+        var wait_time = 100;
+        var baseline = device.height * 0.412 | 0;
+        var min_height = baseline * 0.55 | 0;
+        
+        // 发球
+        var point = this.findColorPoint(len);
+        var x = point.x;
+        var y = point.y;
+        click(x, y);
+        
+        while (1) {
+            var point = this.findColorPoint(len);
+            var x = point.x;
+            var y = point.y;
+            
+            if (min_height &lt;= y &amp;&amp; y &lt;= baseline)
+                click(x, baseline);
+        }
+    };
+
+    this.findColorPoint = function (len) {
+        var wait_time = 100;
+        for (var time = 0;time &lt; this.find_time;time += wait_time) {
+            for (var i = 0;i &lt; len;i++) {
+                var capture = captureScreen();
+                if (!capture) {
+                    sleep(50);
+                    continue;
+                }
+                var color = this.colors[i];
+                var point = findColorEquals(capture, color, 0, 0, WIDTH, HEIGHT);
+                if (point !== null) {
+                    return point;
+                }
+            }
+        }
+
+        return null;
+    };
+}
+</code></pre>
+<p><img src="https://luobin5.github.io/post-images/1568028164144.jpg" alt=""></p>
+<p>来源：忘了~</p>
 ]]></content>
     </entry>
     <entry>

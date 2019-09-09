@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>百度网盘满速技巧手机篇（1）Termux+BaiduPCS | 洛滨</title>
+<title>支付宝星星球Auto.js | 洛滨</title>
 <meta name="description" content="洛滨的个人博客">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -92,78 +92,116 @@
       <div class="content-container">
         <div class="post-detail">
           
-            <div class="feature-container" style="background-image: url('https://luobin5.github.io/post-images/baidu1.jpg')">
+            <div class="feature-container" style="background-image: url('https://luobin5.github.io/post-images/autojs1.jpg')">
             </div>
           
-          <h2 class="post-title">百度网盘满速技巧手机篇（1）Termux+BaiduPCS</h2>
+          <h2 class="post-title">支付宝星星球Auto.js</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-08-20</span>
+            <span><i class="icon-calendar-outline"></i> 2019-07-20</span>
             
           </div>
           <div class="post-content">
-            <p>此方法是使用Termux+<a href="https://github.com/liuzhuoling2011/baidupcs-web">BaiduPCS-Web</a>进行下载百度网盘文件，更多使用方法请参考原项目：<a href="https://github.com/GangZhuo/BaiduPCS">BaiduPCS</a>和<a href="https://github.com/liuzhuoling2011/baidupcs-web">BaiduPCS-Web</a>。</p>
-<h3 id="下面是正式教程">下面是正式教程：</h3>
-<ol>
-<li>
-<p>下载高级终端<a href="http://www.coolapk.com/apk/com.termux">Termux</a></p>
-</li>
-<li>
-<p>打开Termux，等待install（尽量在网络良好的条件，可能需要“梯子”），完成了界面会出现英文</p>
-</li>
-<li>
-<p>切换为清华源（此处可选，主要是安装wget时快一点），过程要输入Y，完成这步要结束Termux后台重新进入软件开始第4步</p>
-</li>
-</ol>
-<pre><code>sed -i 's@^\(deb.*stable main\)$@#\1\ndeb
-https://mirrors.tuna.tsinghua.edu.cn/termux stable main@' $PREFIX/etc/apt/sources.list
-apt update &amp;&amp; apt upgrade
+            <p>下载安装<a href="https://github.com/hyb1996/Auto.js">Auto.js</a>（请在其它平台下载）<br>
+打开Auto.js，开启无障碍服务。新建js文件（可以命名为“星星球”）输入以下脚本代码保存即可运行<br>
+<img src="https://luobin5.github.io/post-images/1568028183505.jpg" alt=""></p>
+<pre><code>auto();
+
+const WIDTH = Math.min(device.width, device.height);
+const HEIGHT = Math.max(device.width, device.height);
+
+start();
+function start() {
+    var timeout = 10000;
+    // 截图权限申请
+    threads.start(function () {
+        var remember;
+        var beginBtn;
+        if (remember = id(&quot;com.android.systemui:id/remember&quot;).checkable(true).findOne(timeout)) {
+            remember.click();
+        }
+        if (beginBtn = classNameContains(&quot;Button&quot;).textContains(&quot;立即开始&quot;).findOne(timeout)) {
+            beginBtn.click();
+        }
+    });
+    if (!requestScreenCapture(false)) {
+        toastLog(&quot;请求截图失败&quot;);
+        exit();
+    }
+
+    toast(&quot;打开星星球界面&quot;);
+    app.startActivity({
+        action: &quot;VIEW&quot;,
+        data: &quot;alipays://platformapi/startapp?appId=66666782&quot;
+    });
+    waitForActivity(&quot;com.alipay.mobile.nebulacore.ui.H5Activity&quot;);
+    toast(&quot;进入星星球成功&quot;);
+    sleep(5000);
+
+    var antManor = new AntManor();
+
+    antManor.play();
+
+    exit();
+}
+
+function AntManor() {
+    this.colors = [&quot;#FF4C4C&quot;, &quot;#4E86FF&quot;];
+    this.find_time = 5000;
+
+    this.play = function () {
+        var len = this.colors.length;
+        var wait_time = 100;
+        var baseline = device.height * 0.412 | 0;
+        var min_height = baseline * 0.55 | 0;
+        
+        // 发球
+        var point = this.findColorPoint(len);
+        var x = point.x;
+        var y = point.y;
+        click(x, y);
+        
+        while (1) {
+            var point = this.findColorPoint(len);
+            var x = point.x;
+            var y = point.y;
+            
+            if (min_height &lt;= y &amp;&amp; y &lt;= baseline)
+                click(x, baseline);
+        }
+    };
+
+    this.findColorPoint = function (len) {
+        var wait_time = 100;
+        for (var time = 0;time &lt; this.find_time;time += wait_time) {
+            for (var i = 0;i &lt; len;i++) {
+                var capture = captureScreen();
+                if (!capture) {
+                    sleep(50);
+                    continue;
+                }
+                var color = this.colors[i];
+                var point = findColorEquals(capture, color, 0, 0, WIDTH, HEIGHT);
+                if (point !== null) {
+                    return point;
+                }
+            }
+        }
+
+        return null;
+    };
+}
 </code></pre>
-<ol start="4">
-<li>
-<p>安装wget<br>
-<strong><code>pkg install wget</code></strong></p>
-</li>
-<li>
-<p>下载压缩包（下载有点慢，请耐心等待，保持Termux运行，如果下载中断要清除Termux数据重来）<br>
-<strong><code>wget https://github.com/liuzhuoling2011/baidupcs-web/releases/download/3.6.8/BaiduPCS-Go-3.6.8-android-arm64.zip</code></strong><br>
-<img src="https://luobin5.github.io/post-images/1567991369663.jpg" alt=""></p>
-</li>
-<li>
-<p>解压压缩包<br>
-<strong><code>unzip BaiduPCS-Go-3.6.8-android-arm64.zip</code></strong></p>
-</li>
-<li>
-<p>给软件读取存储权限，出现权限申请请点击允许<br>
-<strong><code>termux-setup-storage</code></strong></p>
-</li>
-<li>
-<p>运行<br>
-<strong><code>./BaiduPCS-Go-3.6.8-android-arm64/BaiduPCS-Go</code></strong></p>
-</li>
-<li>
-<p>打开浏览器（建议使用Chrome浏览器），地址栏输入http://localhost:5299，登录百度账号即可进行文件下载<br>
-<img src="https://luobin5.github.io/post-images/1567999671455.jpg" alt=""></p>
-</li>
-</ol>
-<h3 id="下载展示">下载展示</h3>
-<p><img src="https://luobin5.github.io/post-images/1567999677892.jpg" alt=""><br>
-<img src="https://luobin5.github.io/post-images/1567999684415.jpg" alt=""></p>
-<ul>
-<li>注意:下载过程中不能结束Termux的后台，下载的文件在Download&gt;百度账户名文件夹里面。下次使用只要没有清除掉Termux的数据就可以直接在Termux输入以下命令接着第8步使用了<br>
-<strong><code>./BaiduPCS-Go-3.6.8-android-arm64/BaiduPCS-Go</code></strong></li>
-</ul>
-<p>此方法要登录百度网盘账号，下载过多可能会被拉“小黑屋”（账号限速），此方法可能就会短暂失效。不过不用担心，被拉“小黑屋”后，等待几天或者直接开百度网盘会员，下载速度应该就会恢复。</p>
-<p>另外，BaidiPCS-Go有客户端，项目地址为<a href="https://github.com/iikira/BaiduPCS-Go">https://github.com/iikira/BaiduPCS-Go</a>。由于我没有使用过，在这里就不作介绍，有需求和兴趣的可以下载尝试。</p>
-<p>此方法建议用于临时紧急下载百度网盘文件或者会员下载提速仍然很慢的时候，若在百度网盘有比较大的下载需求，建议支持正版百度网盘并开通百度网盘会员。</p>
+<p><img src="https://luobin5.github.io/post-images/1568028164144.jpg" alt=""></p>
+<p>来源：忘了~</p>
 
           </div>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://luobin5.github.io/post/autojs1">
+            <a class="purple-link" href="https://luobin5.github.io/post/newblog">
               <h3 class="post-title">
-                下一篇：支付宝星星球Auto.js
+                下一篇：我的新博客
               </h3>
             </a>
           </div>
