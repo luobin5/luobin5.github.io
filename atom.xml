@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-09T11:30:34.452Z</updated>
+    <updated>2019-09-09T11:32:48.515Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -142,7 +142,7 @@ apt update &amp;&amp; apt upgrade
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[支付宝星星球Auto.js]]></title>
+        <title type="html"><![CDATA[星星球Auto.js]]></title>
         <id>https://luobin5.github.io/post/autojs1</id>
         <link href="https://luobin5.github.io/post/autojs1">
         </link>
