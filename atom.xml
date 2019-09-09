@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-08T13:59:05.219Z</updated>
+    <updated>2019-09-09T01:19:55.141Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -16,56 +16,78 @@
         <link href="https://luobin5.github.io/post/baidu2">
         </link>
         <updated>2019-09-08T13:26:24.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>安装应用</strong><br>
-①下载<a href="https://www.lanzous.com/b907844">度享链</a>并安装<br>
+        <content type="html"><![CDATA[<h3 id="安装应用"><strong>安装应用</strong></h3>
+<p>①下载<a href="https://www.lanzous.com/b907844">度享链</a>并安装<br>
 附：<a href="https://www.coolapk.com/feed/13381161?shareKey=YjMzMmZkYmY5MmNiNWQ3NGI4MGI~&amp;shareUid=2190952&amp;shareFrom=com.coolapk.market_9.5">软件来源</a><br>
 ②下载支持2048线程的<a href="https://www.lanzous.com/b838187">ADM Pro（密码：WDNMD）</a>并安装<br>
 附：<a href="https://www.coolapk.com/feed/12773337?shareKey=MGY1ODk0NjY1NDllNWQ3NGI5MWU~&amp;shareUid=2190952&amp;shareFrom=com.coolapk.market_9.5">软件来源</a></p>
-<p><strong>设置应用</strong><br>
-③打开度享链点击如图位置删除原UA，并输入<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code>点击保存（注：直接在这里复制过去粘贴就可以了）<br>
+<h3 id="设置应用"><strong>设置应用</strong></h3>
+<p>③打开度享链点击如图位置删除原UA，并输入<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code>点击保存（注：直接在这里复制过去粘贴就可以了）<br>
 <img src="https://luobin5.github.io/post-images/1567949430203.jpg" alt=""><br>
 ④打开ADM Pro，点击左上角≡＞设置＞下载（滑至底部）＞浏览器标识，选择“Opera浏览器9.80”（或者选择“自定义”并在最底部“自定义浏览器标识”输入<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code>并确定）。为方便，可以先设置ADM Pro的线程为64-128，如果经常下载的文件比较大，可以直接拉至2048线程<br>
 <img src="https://luobin5.github.io/post-images/1567949461276.jpg" alt=""></p>
-<p><strong>开始使用</strong><br>
-④打开度享链，输入自己或者别人分享的百度网盘文件分享链接和密码（如果没有密码则不填），点“开始”然后就可以看到分享的文件。点击文件提取直链然后选择ADM下载，这样就可以快速下载百度网盘的文件了。<img src="https://luobin5.github.io/post-images/1567950810895.jpg" alt=""></p>
-<p><strong>下载速度展示</strong><br>
-<img src="https://luobin5.github.io/post-images/1567949736576.jpg" alt=""></p>
+<h3 id="开始使用"><strong>开始使用</strong></h3>
+<p>④打开度享链，输入自己或者别人分享的百度网盘文件分享链接和密码（如果没有密码则不填），点“开始”然后就可以看到分享的文件。点击文件提取直链然后选择ADM下载，这样就可以快速下载百度网盘的文件了。<br>
+<img src="https://luobin5.github.io/post-images/1567991489034.jpg" alt=""></p>
+<h3 id="下载速度展示"><strong>下载速度展示</strong></h3>
+<p><img src="https://luobin5.github.io/post-images/1567949736576.jpg" alt=""></p>
 <p>因为不用登录百度网盘账号，不用担心账号被拉进“小黑屋”（限速）。但是，度享链提取直链有时候不稳定，多试几次或者结束应用稍等再提取直链就可以了。另外，度享链提取的直链可以复制出来在电脑和手机的ADM和IDM上下载，前提是设置了相同的UA。</p>
 <p>文章中的软件皆附有来源，属原作者所有。此方法建议用于临时紧急下载大文件或者会员下载提速仍然很慢的时候，若在百度网盘有比较大的下载需求，建议支持正版百度网盘并开通会员。</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[百度网盘满速技巧手机篇（1）：Termux+BaiduPCS]]></title>
+        <title type="html"><![CDATA[百度网盘满速技巧手机篇（1）Termux+BaiduPCS]]></title>
         <id>https://luobin5.github.io/post/baidu1</id>
         <link href="https://luobin5.github.io/post/baidu1">
         </link>
-        <updated>2019-07-20T12:43:13.000Z</updated>
-        <content type="html"><![CDATA[<p>此方法是使用Termux+<a href="https://github.com/GangZhuo/BaiduPCS">BaiduPCS</a>的Web进行下载百度网盘文件，更多使用方法请参考原项目：<a href="https://github.com/GangZhuo/BaiduPCS">BaiduPCS</a>。</p>
-<p>下面是正式教程：</p>
+        <updated>2019-08-20T12:43:13.000Z</updated>
+        <content type="html"><![CDATA[<p>此方法是使用Termux+<a href="https://github.com/liuzhuoling2011/baidupcs-web">BaiduPCS-Web</a>进行下载百度网盘文件，更多使用方法请参考原项目：<a href="https://github.com/GangZhuo/BaiduPCS">BaiduPCS</a>和<a href="https://github.com/liuzhuoling2011/baidupcs-web">BaiduPCS-Web</a>。</p>
+<h3 id="下面是正式教程">下面是正式教程：</h3>
 <ol>
-<li>下载高级终端<a href="http://www.coolapk.com/apk/com.termux">Termux</a></li>
-<li>打开Termux，等待install（尽量在网络良好的条件，可能需要“梯子”），完成了界面会出现英文</li>
-<li>切换为清华源（此处可选，主要是安装wget时快一点），过程要输入Y，完成这步要结束Termux后台重新进入软件开始第4步</li>
+<li>
+<p>下载高级终端<a href="http://www.coolapk.com/apk/com.termux">Termux</a></p>
+</li>
+<li>
+<p>打开Termux，等待install（尽量在网络良好的条件，可能需要“梯子”），完成了界面会出现英文</p>
+</li>
+<li>
+<p>切换为清华源（此处可选，主要是安装wget时快一点），过程要输入Y，完成这步要结束Termux后台重新进入软件开始第4步</p>
+</li>
 </ol>
 <pre><code>sed -i 's@^\(deb.*stable main\)$@#\1\ndeb
 https://mirrors.tuna.tsinghua.edu.cn/termux stable main@' $PREFIX/etc/apt/sources.list
 apt update &amp;&amp; apt upgrade
 </code></pre>
 <ol start="4">
-<li>安装wget<br>
-<code>pkg install wget</code></li>
-<li>下载压缩包（下载有点慢，请耐心等待，保持Termux运行，如果中断要清除Termux数据重来）<br>
-<code>wget https://github.com/liuzhuoling2011/baidupcs-web/releases/download/3.6.8/BaiduPCS-Go-3.6.8-android-arm64.zip</code></li>
-<li>解压压缩包<br>
-<code>unzip BaiduPCS-Go-3.6.8-android-arm64.zip</code></li>
-<li>给软件读取存储权限<br>
-<code>termux-setup-storage</code></li>
-<li>运行<br>
-<code>./BaiduPCS-Go-3.6.8-android-arm64/BaiduPCS-Go</code></li>
-<li>打开浏览器（建议使用Chrome浏览器），地址栏输入localhost:5299，登录百度账号即可进行文件下载</li>
+<li>
+<p>安装wget<br>
+<strong><code>pkg install wget</code></strong></p>
+</li>
+<li>
+<p>下载压缩包（下载有点慢，请耐心等待，保持Termux运行，如果中断要清除Termux数据重来）<br>
+<strong><code>wget https://github.com/liuzhuoling2011/baidupcs-web/releases/download/3.6.8/BaiduPCS-Go-3.6.8-android-arm64.zip</code></strong><br>
+<img src="https://luobin5.github.io/post-images/1567991369663.jpg" alt=""></p>
+</li>
+<li>
+<p>解压压缩包<br>
+<strong><code>unzip BaiduPCS-Go-3.6.8-android-arm64.zip</code></strong></p>
+</li>
+<li>
+<p>给软件读取存储权限，出现权限申请请点击允许<br>
+<strong><code>termux-setup-storage</code></strong></p>
+</li>
+<li>
+<p>运行<br>
+<strong><code>./BaiduPCS-Go-3.6.8-android-arm64/BaiduPCS-Go</code></strong></p>
+</li>
+<li>
+<p>打开浏览器（建议使用Chrome浏览器），地址栏输入http://localhost:5299，登录百度账号即可进行文件下载<br>
+<img src="https://luobin5.github.io/post-images/1567991354998.jpg" alt=""></p>
+</li>
 </ol>
 <ul>
-<li>注意:下载过程中不能结束Termux的后台，下次使用只要没有清除掉Termux的数据就可以直接在Termux输入<code>./BaiduPCS-Go-3.6.8-android-arm64/BaiduPCS-Go</code>就可以接着第8步使用了</li>
+<li>注意:下载过程中不能结束Termux的后台，下载的文件在Download&gt;百度账户名文件夹里面。下次使用只要没有清除掉Termux的数据就可以直接在Termux输入以下命令接着第8步使用了<br>
+<strong><code>./BaiduPCS-Go-3.6.8-android-arm64/BaiduPCS-Go</code></strong></li>
 </ul>
 <p>此方法要登录百度网盘账号，下载过多可能会被拉“小黑屋”（账号限速），此方法可能就会短暂失效。不过不用担心，被拉“小黑屋”后，等待几天或者直接开百度网盘会员，下载速度应该就会恢复。</p>
 <p>此方法建议用于临时紧急下载百度网盘文件或者会员下载提速仍然很慢的时候，若在百度网盘有比较大的下载需求，建议支持正版百度网盘并开通百度网盘会员。</p>
