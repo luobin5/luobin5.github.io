@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-09T10:33:27.082Z</updated>
+    <updated>2019-09-09T10:35:09.583Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -61,7 +61,7 @@
         <content type="html"><![CDATA[<h2 id="安装应用"><strong>安装应用</strong></h2>
 <p>①下载<a href="https://www.lanzous.com/b907844">度享链</a>并安装<br>
 附：<a href="https://www.coolapk.com/feed/13381161?shareKey=YjMzMmZkYmY5MmNiNWQ3NGI4MGI~&amp;shareUid=2190952&amp;shareFrom=com.coolapk.market_9.5">软件来源</a><br>
-②下载2048线程的<a href="https://www.lanzous.com/b838187">ADM Pro（密码：WDNMD）</a>并安装<br>
+②下载2048线程<a href="https://www.lanzous.com/b838187">ADM Pro（密码：WDNMD）</a>并安装<br>
 附：<a href="https://www.coolapk.com/feed/12773337?shareKey=MGY1ODk0NjY1NDllNWQ3NGI5MWU~&amp;shareUid=2190952&amp;shareFrom=com.coolapk.market_9.5">软件来源</a></p>
 <h2 id="设置应用"><strong>设置应用</strong></h2>
 <p>③打开度享链点击如图位置删除原UA，并输入<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code>点击保存（可以直接在这里复制过去粘贴）<br>
