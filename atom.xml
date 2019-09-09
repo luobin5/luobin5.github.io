@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-09T11:55:32.077Z</updated>
+    <updated>2019-09-09T11:57:30.765Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -251,7 +251,7 @@ function AntManor() {
 <p>利用Gridea基于Github搭建个人博客是比较方便的一种方法，写文章以及同步都可以在Win客户端上完成，所以使用相对简单。如果你也有兴趣搭建个人博客，但是没有云主机or云服务器，你也可以尝试使用Gridea+Github Pages来搭建。<br>
 教程：<a href="https://fehey.com/post/hve-notes-start/">Gridea小白教程</a>，以及项目<a href="https://github.com/getgridea/gridea">地址</a>，Gridea<a href="https://gridea.dev/">主页</a>。</p>
 <p>如果你有更好的耐心，可以尝试Hexo+Github搭建个人博客。或者，如果你有云主机or云服务器，可以使用主题和功能更多的WordPress搭建个人博客。</p>
-<p>博客建立时间为Github该库新建时间，由于库在Github，访问本博客可能会有点慢。因为是静态网页，所以可能要清除浏览器的缓存才能看到博客的修改和更新。</p>
+<p>博客建立时间为Github该库新建时间，由于库在Github，访问本博客可能会有点慢。因为是静态网页，所以可能要清除浏览器的缓存或者才能看到文章的修改和更新。</p>
 ]]></content>
     </entry>
     <entry>
