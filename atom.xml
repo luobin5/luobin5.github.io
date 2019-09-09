@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-09T01:20:08.531Z</updated>
+    <updated>2019-09-09T01:23:02.523Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -64,7 +64,7 @@ apt update &amp;&amp; apt upgrade
 <strong><code>pkg install wget</code></strong></p>
 </li>
 <li>
-<p>下载压缩包（下载有点慢，请耐心等待，保持Termux运行，如果中断要清除Termux数据重来）<br>
+<p>下载压缩包（下载有点慢，请耐心等待，保持Termux运行，如果下载中断要清除Termux数据重来）<br>
 <strong><code>wget https://github.com/liuzhuoling2011/baidupcs-web/releases/download/3.6.8/BaiduPCS-Go-3.6.8-android-arm64.zip</code></strong><br>
 <img src="https://luobin5.github.io/post-images/1567991369663.jpg" alt=""></p>
 </li>
