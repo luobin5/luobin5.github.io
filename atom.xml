@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-09T11:34:53.944Z</updated>
+    <updated>2019-09-09T11:41:39.605Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -146,7 +146,7 @@ apt update &amp;&amp; apt upgrade
         <id>https://luobin5.github.io/post/autojs1</id>
         <link href="https://luobin5.github.io/post/autojs1">
         </link>
-        <updated>2019-07-20T11:08:16.000Z</updated>
+        <updated>2019-07-13T11:08:16.000Z</updated>
         <content type="html"><![CDATA[<p>下载安装<a href="https://github.com/hyb1996/Auto.js">Auto.js</a>（请在其它平台下载）<br>
 打开Auto.js，开启无障碍服务。新建js文件（可以命名为“星星球”）输入以下脚本代码保存即可运行<br>
 <img src="https://luobin5.github.io/post-images/1568028183505.jpg" alt=""></p>
@@ -246,7 +246,7 @@ function AntManor() {
         <id>https://luobin5.github.io/post/newblog</id>
         <link href="https://luobin5.github.io/post/newblog">
         </link>
-        <updated>2019-07-13T12:10:37.000Z</updated>
+        <updated>2019-07-13T03:10:37.000Z</updated>
         <content type="html"><![CDATA[<p>我试用过云主机和云服务器搭建WordPress博客网站，但是由于续费期限以及数据等问题，所以现在利用<a href="https://github.com/getgridea/gridea/">Gridea</a>基于Github Pages搭建了<a href="https://luobin5.github.io">新博客</a>。</p>
 <p>利用Gridea基于Github搭建个人博客是比较方便的一种方法，写文章以及同步都可以在Win客户端上完成，所以使用相对简单。如果你也有兴趣搭建个人博客，但是没有云主机or云服务器，你也可以尝试使用Gridea+Github Pages来搭建。<br>
 教程：<a href="https://fehey.com/post/hve-notes-start/">Gridea小白教程</a>，以及项目<a href="https://github.com/getgridea/gridea">地址</a>，Gridea<a href="https://gridea.dev/">主页</a>。</p>
@@ -258,7 +258,7 @@ function AntManor() {
         <id>https://luobin5.github.io/post/test</id>
         <link href="https://luobin5.github.io/post/test">
         </link>
-        <updated>2019-07-13T12:08:11.000Z</updated>
+        <updated>2019-07-13T02:08:11.000Z</updated>
         <content type="html"><![CDATA[<p>Test...</p>
 ]]></content>
     </entry>
