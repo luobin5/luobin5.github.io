@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-09T10:19:46.295Z</updated>
+    <updated>2019-09-09T10:33:27.082Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -34,8 +34,8 @@
 <li>注意：不改浏览器UA获取不了高速下载地址甚至不能下载</li>
 </ul>
 <h2 id="2aria2下载">2.Aria2下载</h2>
-<p>首先，安装好<a href="https://www.coolapk.com/apk/com.gianlu.aria2app">Aria2远程下载</a>（若链接出错请在酷安或者其它应用平台下载该应用）</p>
-<p>打开Aria2，点击主界面右下角启动服务<br>
+<p>下载安装<a href="https://www.coolapk.com/apk/com.gianlu.aria2app">Aria2远程下载</a>（若页面不存在请在酷安或者其它应用平台下载该应用）</p>
+<p>打开Aria2，点击主界面右下角（如图）启动服务<br>
 <img src="https://luobin5.github.io/post-images/1568023370584.jpg" alt=""></p>
 <p>打开Pandownlaod网页版（不用修改UA），点开文件到“使用Aria2下载”，填写如下：</p>
 <blockquote>
@@ -49,7 +49,7 @@
 <p>下载进度和管理可以在Aria2应用点击左上角≡，在“管理器”里查看，点击管理器界面左下角≡可以查看更多相关设置<br>
 <img src="https://luobin5.github.io/post-images/1568023330492.jpg" alt=""></p>
 <p>注意：使用Aria2下载要先启动Aria2的服务，不用时停止服务</p>
-<p>Pandownload建议使用网页版，因为不用登录账号。如果想使用方便，可以使用客户端和应用</p>
+<p>Pandownload建议使用网页版，因为不用登录账号。如果想使用方便，下载客户端和应用使用</p>
 ]]></content>
     </entry>
     <entry>
@@ -58,20 +58,22 @@
         <link href="https://luobin5.github.io/post/baidu2">
         </link>
         <updated>2019-08-25T13:26:24.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="安装应用"><strong>安装应用</strong></h3>
+        <content type="html"><![CDATA[<h2 id="安装应用"><strong>安装应用</strong></h2>
 <p>①下载<a href="https://www.lanzous.com/b907844">度享链</a>并安装<br>
 附：<a href="https://www.coolapk.com/feed/13381161?shareKey=YjMzMmZkYmY5MmNiNWQ3NGI4MGI~&amp;shareUid=2190952&amp;shareFrom=com.coolapk.market_9.5">软件来源</a><br>
-②下载支持2048线程的<a href="https://www.lanzous.com/b838187">ADM Pro（密码：WDNMD）</a>并安装<br>
+②下载2048线程的<a href="https://www.lanzous.com/b838187">ADM Pro（密码：WDNMD）</a>并安装<br>
 附：<a href="https://www.coolapk.com/feed/12773337?shareKey=MGY1ODk0NjY1NDllNWQ3NGI5MWU~&amp;shareUid=2190952&amp;shareFrom=com.coolapk.market_9.5">软件来源</a></p>
-<h3 id="设置应用"><strong>设置应用</strong></h3>
-<p>③打开度享链点击如图位置删除原UA，并输入<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code>点击保存（注：直接在这里复制过去粘贴就可以了）<br>
+<h2 id="设置应用"><strong>设置应用</strong></h2>
+<p>③打开度享链点击如图位置删除原UA，并输入<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code>点击保存（可以直接在这里复制过去粘贴）<br>
 <img src="https://luobin5.github.io/post-images/1567949430203.jpg" alt=""><br>
-④打开ADM Pro，点击左上角≡＞设置＞下载（滑至底部）＞浏览器标识，选择“Opera浏览器9.80”（或者选择“自定义”并在最底部“自定义浏览器标识”输入<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code>并确定）。为方便，可以先设置ADM Pro的线程为64-128，如果经常下载的文件比较大，可以直接拉至2048线程<br>
+④打开ADM Pro，点击左上角≡＞设置＞下载（滑至底部）＞浏览器标识，选择“Opera浏览器9.80”（或选择“自定义”并在最底部“自定义浏览器标识”输以下UA入并确定）<br>
+<code>Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14</code><br>
+设置ADM Pro的线程为64-128，如果经常下载大文件，可以直接拉至2048线程<br>
 <img src="https://luobin5.github.io/post-images/1567949461276.jpg" alt=""></p>
-<h3 id="开始使用"><strong>开始使用</strong></h3>
+<h2 id="开始使用"><strong>开始使用</strong></h2>
 <p>④打开度享链，输入自己或者别人分享的百度网盘文件分享链接和提取码（如果没有提取码则不填），点“开始”然后就可以看到分享的文件。点击文件提取直链然后选择ADM下载，这样就可以快速下载百度网盘的文件了。<br>
 <img src="https://luobin5.github.io/post-images/1567991489034.jpg" alt=""></p>
-<h3 id="下载速度展示"><strong>下载速度展示</strong></h3>
+<h2 id="下载速度展示"><strong>下载速度展示</strong></h2>
 <p><img src="https://luobin5.github.io/post-images/1567949736576.jpg" alt=""></p>
 <p>因为不用登录百度网盘账号，不用担心账号被拉进“小黑屋”（限速）。但是，度享链提取直链有时候不稳定，多试几次或者结束应用稍等再提取直链就可以了。另外，度享链提取的直链可以复制出来在电脑和手机的ADM和IDM上下载，前提是设置了相同的UA。</p>
 <p>文章中的软件皆附有来源，属原作者所有。此方法建议用于临时紧急下载大文件或者会员下载提速仍然很慢的时候，若在百度网盘有比较大的下载需求，建议支持正版百度网盘并开通会员。</p>
