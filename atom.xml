@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-09T01:25:07.156Z</updated>
+    <updated>2019-09-09T01:27:28.573Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://luobin5.github.io/images/avatar.png</logo>
     <icon>https://luobin5.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 洛滨</rights>
+    <entry>
+        <title type="html"><![CDATA[friends]]></title>
+        <id>https://luobin5.github.io/post/friends</id>
+        <link href="https://luobin5.github.io/post/friends">
+        </link>
+        <updated>2019-09-09T01:25:38.000Z</updated>
+        <content type="html"><![CDATA[<p>友链</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[百度网盘满速技巧手机篇（2）度享链+ADM]]></title>
         <id>https://luobin5.github.io/post/baidu2</id>
