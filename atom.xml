@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-10T05:26:03.044Z</updated>
+    <updated>2019-09-10T05:50:09.356Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -34,7 +34,7 @@
 <li>注意：不改浏览器UA获取不了高速下载地址甚至不能下载</li>
 </ul>
 <h2 id="2aria2下载">2.Aria2下载</h2>
-<p>下载安装<a href="https://www.coolapk.com/apk/com.gianlu.aria2app">Aria2远程下载</a>（若页面不存在请在酷安或者其它应用平台下载该应用）</p>
+<p>下载安装<a href="https://www.coolapk.com/apk/me.xuzhi.aria2cdroid">Aria2服务器</a></p>
 <p>打开Aria2，点击主界面右下角（如图）启动服务<br>
 <img src="https://luobin5.github.io/post-images/1568023370584.jpg" alt=""></p>
 <p>打开Pandownlaod网页版（不用修改UA），点开文件到“使用Aria2下载”，填写如下：</p>
