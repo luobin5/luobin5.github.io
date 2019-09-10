@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>音乐下载网站 | 洛滨</title>
+<title>音乐 | 洛滨</title>
 <meta name="description" content="洛滨的个人博客">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -16,12 +16,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://luobin5.github.io/styles/main.css">
 
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -90,88 +84,60 @@
 
 
       <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://luobin5.github.io/post-images/music1.jpg')">
-            </div>
-          
-          <h2 class="post-title">音乐下载网站</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-09-10</span>
-            
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://luobin5.github.io/tag/hVIBhFeb-">
-                    音乐
-                    
-                      ，
-                    
-                  </a>
-                
-                  <a href="https://luobin5.github.io/tag/lkFrY-kcg9">
-                    网站分享
-                    
-                  </a>
-                
-              </span>
-            
-          </div>
-          <div class="post-content">
-            <ul>
-<li>
-<p>墨灵音乐：<a href="https://music.mli.im/music.web">https://music.mli.im/music.web</a></p>
-</li>
-<li>
-<p>音乐聚合：<a href="http://www.gequdaquan.net/gqss/">http://www.gequdaquan.net/gqss/</a></p>
-</li>
-<li>
-<p>音乐解析下载网：<a href="http://music.zhuolin.wang/">http://music.zhuolin.wang/</a></p>
-</li>
-<li>
-<p>MKOnlinePlayer：<a href="http://music.fooor.cn/">http://music.fooor.cn/</a></p>
-</li>
-<li>
-<p>天天静听：<a href="http://47.112.23.238/music">http://47.112.23.238/music</a></p>
-</li>
-<li>
-<p>煎饼搜音乐下载网：<a href="http://www.jbsou.cn/">http://www.jbsou.cn/</a></p>
-</li>
-<li>
-<p>音乐免费下载工具：<a href="https://music.sounm.com/">https://music.sounm.com/</a></p>
-</li>
-<li>
-<p>无损音乐交流：<a href="https://m.sq688.com/">https://m.sq688.com/</a></p>
-</li>
-<li>
-<p>MYFREEMP3：<a href="http://lab.liumingye.cn/api/">http://lab.liumingye.cn/api/</a>（若要密码，输入：greasy）</p>
-</li>
-</ul>
-<blockquote>
-<p>音乐下载网站仅作分享，不分排序。请尊重版权</p>
-</blockquote>
 
-          </div>
+        <div class="current-tag-container">
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> 音乐
+          </h2> 
         </div>
 
         
-          <div class="next-post">
-            <a class="purple-link" href="https://luobin5.github.io/post/movies1">
-              <h3 class="post-title">
-                下一篇：影视资源采集网
-              </h3>
-            </a>
-          </div>
-          
+<section class="post-item">
+    <div class="content">
+      <a href="https://luobin5.github.io/post/music1">
+        <h2 class="post-title">音乐下载网站</h2>
+      </a>
+      <div class="post-abstract">
+        
       </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-09-10</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://luobin5.github.io/tag/hVIBhFeb-">
+                音乐
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://luobin5.github.io/tag/lkFrY-kcg9">
+                网站分享
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://luobin5.github.io/post/music1">
+        <div class="feature-container" style="background-image: url('https://luobin5.github.io/post-images/music1.jpg')">
+        </div>
+      </a>
+    
+  </section>
 
-      
-        
-          <div id="gitalk-container"></div>
-        
 
-        
-      
+<div class="pagination-container">
+  
+  
+</div>
+
+
+      </div>
 
       <div class="site-footer">
   <div class="slogan">洛滨的个人博客</div>
@@ -205,29 +171,6 @@ var app = new Vue({
 })
 
 </script>
-
-
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: 'c078c3ab9823db7a6ebc',
-        clientSecret: '2d4deffede386006c00872a10fe3e78b37b9d3e0',
-        repo: 'gittalkContact',
-        owner: 'luobin5',
-        admin: ['luobin5'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
 
 
 
