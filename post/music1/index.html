@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>星星球Auto.js（自动玩星星球） | 洛滨</title>
+<title>音乐下载网站 | 洛滨</title>
 <meta name="description" content="洛滨的个人博客">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -92,116 +92,56 @@
       <div class="content-container">
         <div class="post-detail">
           
-            <div class="feature-container" style="background-image: url('https://luobin5.github.io/post-images/autojs1.jpg')">
+            <div class="feature-container" style="background-image: url('https://luobin5.github.io/post-images/music1.jpg')">
             </div>
           
-          <h2 class="post-title">星星球Auto.js（自动玩星星球）</h2>
+          <h2 class="post-title">音乐下载网站</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-07-20</span>
+            <span><i class="icon-calendar-outline"></i> 2019-09-10</span>
             
           </div>
           <div class="post-content">
-            <p>下载安装<a href="https://github.com/hyb1996/Auto.js">Auto.js</a>（请在其它平台下载）<br>
-打开Auto.js，开启无障碍服务。新建js文件（可以命名为“星星球”）输入以下脚本代码保存即可运行<br>
-<img src="https://luobin5.github.io/post-images/1568028183505.jpg" alt=""></p>
-<pre><code>auto();
-
-const WIDTH = Math.min(device.width, device.height);
-const HEIGHT = Math.max(device.width, device.height);
-
-start();
-function start() {
-    var timeout = 10000;
-    // 截图权限申请
-    threads.start(function () {
-        var remember;
-        var beginBtn;
-        if (remember = id(&quot;com.android.systemui:id/remember&quot;).checkable(true).findOne(timeout)) {
-            remember.click();
-        }
-        if (beginBtn = classNameContains(&quot;Button&quot;).textContains(&quot;立即开始&quot;).findOne(timeout)) {
-            beginBtn.click();
-        }
-    });
-    if (!requestScreenCapture(false)) {
-        toastLog(&quot;请求截图失败&quot;);
-        exit();
-    }
-
-    toast(&quot;打开星星球界面&quot;);
-    app.startActivity({
-        action: &quot;VIEW&quot;,
-        data: &quot;alipays://platformapi/startapp?appId=66666782&quot;
-    });
-    waitForActivity(&quot;com.alipay.mobile.nebulacore.ui.H5Activity&quot;);
-    toast(&quot;进入星星球成功&quot;);
-    sleep(5000);
-
-    var antManor = new AntManor();
-
-    antManor.play();
-
-    exit();
-}
-
-function AntManor() {
-    this.colors = [&quot;#FF4C4C&quot;, &quot;#4E86FF&quot;];
-    this.find_time = 5000;
-
-    this.play = function () {
-        var len = this.colors.length;
-        var wait_time = 100;
-        var baseline = device.height * 0.412 | 0;
-        var min_height = baseline * 0.55 | 0;
-        
-        // 发球
-        var point = this.findColorPoint(len);
-        var x = point.x;
-        var y = point.y;
-        click(x, y);
-        
-        while (1) {
-            var point = this.findColorPoint(len);
-            var x = point.x;
-            var y = point.y;
-            
-            if (min_height &lt;= y &amp;&amp; y &lt;= baseline)
-                click(x, baseline);
-        }
-    };
-
-    this.findColorPoint = function (len) {
-        var wait_time = 100;
-        for (var time = 0;time &lt; this.find_time;time += wait_time) {
-            for (var i = 0;i &lt; len;i++) {
-                var capture = captureScreen();
-                if (!capture) {
-                    sleep(50);
-                    continue;
-                }
-                var color = this.colors[i];
-                var point = findColorEquals(capture, color, 0, 0, WIDTH, HEIGHT);
-                if (point !== null) {
-                    return point;
-                }
-            }
-        }
-
-        return null;
-    };
-}
-</code></pre>
-<p><img src="https://luobin5.github.io/post-images/1568028164144.jpg" alt=""></p>
-<p>来源：忘了~</p>
+            <ul>
+<li>
+<p>墨灵音乐：<a href="https://music.mli.im/music.web">https://music.mli.im/music.web</a></p>
+</li>
+<li>
+<p>音乐聚合：<a href="http://www.gequdaquan.net/gqss/">http://www.gequdaquan.net/gqss/</a></p>
+</li>
+<li>
+<p>音乐解析下载网：<a href="http://music.zhuolin.wang/">http://music.zhuolin.wang/</a></p>
+</li>
+<li>
+<p>MKOnlinePlayer：<a href="http://music.fooor.cn/">http://music.fooor.cn/</a></p>
+</li>
+<li>
+<p>天天静听：<a href="http://47.112.23.238/music">http://47.112.23.238/music</a></p>
+</li>
+<li>
+<p>煎饼搜音乐下载网：[http://www.jbsou.cn/]http://www.jbsou.cn/()</p>
+</li>
+<li>
+<p>全网音乐免费下载工具：<a href="https://music.sounm.com/">https://music.sounm.com/</a></p>
+</li>
+<li>
+<p>无损音乐交流：<a href="https://m.sq688.com/">https://m.sq688.com/</a></p>
+</li>
+<li>
+<p>MYFREEMP3：<a href="http://lab.liumingye.cn/api/">http://lab.liumingye.cn/api/</a>（若要密码，输入：greasy）</p>
+</li>
+</ul>
+<blockquote>
+<p>音乐下载网站仅作分享，不分排序。请尊重版权</p>
+</blockquote>
 
           </div>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://luobin5.github.io/post/newblog">
+            <a class="purple-link" href="https://luobin5.github.io/post/movies1">
               <h3 class="post-title">
-                下一篇：我的新博客
+                下一篇：影视资源采集网
               </h3>
             </a>
           </div>

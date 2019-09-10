@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-10T10:34:33.708Z</updated>
+    <updated>2019-09-10T11:22:30.441Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -10,6 +10,46 @@
     <logo>https://luobin5.github.io/images/avatar.png</logo>
     <icon>https://luobin5.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 洛滨</rights>
+    <entry>
+        <title type="html"><![CDATA[音乐下载网站]]></title>
+        <id>https://luobin5.github.io/post/music1</id>
+        <link href="https://luobin5.github.io/post/music1">
+        </link>
+        <updated>2019-09-10T11:08:21.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>
+<p>墨灵音乐：<a href="https://music.mli.im/music.web">https://music.mli.im/music.web</a></p>
+</li>
+<li>
+<p>音乐聚合：<a href="http://www.gequdaquan.net/gqss/">http://www.gequdaquan.net/gqss/</a></p>
+</li>
+<li>
+<p>音乐解析下载网：<a href="http://music.zhuolin.wang/">http://music.zhuolin.wang/</a></p>
+</li>
+<li>
+<p>MKOnlinePlayer：<a href="http://music.fooor.cn/">http://music.fooor.cn/</a></p>
+</li>
+<li>
+<p>天天静听：<a href="http://47.112.23.238/music">http://47.112.23.238/music</a></p>
+</li>
+<li>
+<p>煎饼搜音乐下载网：[http://www.jbsou.cn/]http://www.jbsou.cn/()</p>
+</li>
+<li>
+<p>全网音乐免费下载工具：<a href="https://music.sounm.com/">https://music.sounm.com/</a></p>
+</li>
+<li>
+<p>无损音乐交流：<a href="https://m.sq688.com/">https://m.sq688.com/</a></p>
+</li>
+<li>
+<p>MYFREEMP3：<a href="http://lab.liumingye.cn/api/">http://lab.liumingye.cn/api/</a>（若要密码，输入：greasy）</p>
+</li>
+</ul>
+<blockquote>
+<p>音乐下载网站仅作分享，不分排序。请尊重版权</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[影视资源采集网]]></title>
         <id>https://luobin5.github.io/post/movies1</id>
@@ -25,6 +65,7 @@
 <li>酷酷资源：<a href="http://www.kukuzy.com/">http://www.kukuzy.com/</a></li>
 <li>资源片：<a href="http://www.ziyuanpian.net/">http://www.ziyuanpian.net/</a></li>
 <li>永久资源：<a href="http://www.yongjiuzy.cc/">http://www.yongjiuzy.cc/</a></li>
+<li>最大资源网：<a href="http://tool.liumingye.cn/yszy/">http://tool.liumingye.cn/yszy/</a></li>
 </ul>
 <blockquote>
 <p>以上网站不分排序，因为是在线视频，清晰度一般最高为高清。如果想要追求更好的清晰度，请到其它影视下载网站下载观看。</p>
