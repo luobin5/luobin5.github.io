@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-15T08:17:50.996Z</updated>
+    <updated>2019-09-15T09:38:41.219Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -10,6 +10,57 @@
     <logo>https://luobin5.github.io/images/avatar.png</logo>
     <icon>https://luobin5.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 洛滨</rights>
+    <entry>
+        <title type="html"><![CDATA[ROM下载集合]]></title>
+        <id>https://luobin5.github.io/post/rom</id>
+        <link href="https://luobin5.github.io/post/rom">
+        </link>
+        <updated>2019-09-15T09:19:28.000Z</updated>
+        <content type="html"><![CDATA[<p>首先，推荐一个网站<a href="https://www.rombox.org/">RomBox</a>，可以在这里轻松找到各机型适配的ROM。下面是我整理的集合：</p>
+<ul>
+<li>
+<p>Pixel Experience：<br>
+<a href="https://download.pixelexperience.org/">https://download.pixelexperience.org/</a></p>
+</li>
+<li>
+<p>Aospextended：<br>
+<a href="https://downloads.aospextended.com/">https://downloads.aospextended.com/</a></p>
+</li>
+<li>
+<p>Havoc-OS<br>
+<a href="https://sourceforge.net/projects/havoc-os/files/">https://sourceforge.net/projects/havoc-os/files/</a></p>
+</li>
+<li>
+<p>dotOS：<br>
+<a href="https://sourceforge.net/projects/dotos-downloads/files/dotp/">https://sourceforge.net/projects/dotos-downloads/files/dotp/</a></p>
+</li>
+<li>
+<p>SyberiaOS：<br>
+<a href="https://sourceforge.net/projects/syberiaos/files/">https://sourceforge.net/projects/syberiaos/files/</a></p>
+</li>
+<li>
+<p>Arrow OS：<br>
+<a href="https://sourceforge.net/projects/arrow-os/files/">https://sourceforge.net/projects/arrow-os/files/</a></p>
+</li>
+<li>
+<p>ViperOS：<br>
+<a href="https://sourceforge.net/projects/viper-project/files/">https://sourceforge.net/projects/viper-project/files/</a></p>
+</li>
+<li>
+<p>NitrogenOS：<br>
+<a href="https://sourceforge.net/projects/nitrogen-project/files/">https://sourceforge.net/projects/nitrogen-project/files/</a></p>
+</li>
+<li>
+<p>ResurrectionRemix：<br>
+<a href="https://get.resurrectionremix.com/">https://get.resurrectionremix.com/</a></p>
+</li>
+<li>
+<p>LineageOS：<br>
+<a href="https://download.lineageos.org/">https://download.lineageos.org/</a></p>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[音乐下载网站]]></title>
         <id>https://luobin5.github.io/post/music1</id>
