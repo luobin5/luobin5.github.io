@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-15T11:42:40.303Z</updated>
+    <updated>2019-09-15T11:44:21.807Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -23,7 +23,7 @@
 <p><img src="https://luobin5.github.io/post-images/1568547755754.png" alt=""></p>
 <blockquote>
 <p>Enterprise（企业版）、Home Basic（家庭普通版）、Home Premium（家庭高级版）、Professional（专业版）、Starter（入门版）、Ultimate（旗舰版）<br>
-X86（32位）、x64（64位）<br>
+x86（32位）、x64（64位）<br>
 VL Build（批量授权(许可)版）</p>
 </blockquote>
 <p>个人觉得Win7下载带有补丁的版本比较好，因为安装不带补丁版本的系统可能在开机后，相对带有补丁版本系统会有更多的更新。</p>
