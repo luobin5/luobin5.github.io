@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-23T13:23:34.229Z</updated>
+    <updated>2019-09-23T13:26:45.957Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -113,47 +113,38 @@ Chinese-Simplified：中文简体</p>
         <link href="https://luobin5.github.io/post/music1">
         </link>
         <updated>2019-09-10T11:08:21.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>墨灵音乐：<a href="https://music.mli.im/music.web">https://music.mli.im/music.web</a></li>
+<li>音乐聚合：<a href="http://www.gequdaquan.net/gqss/">http://www.gequdaquan.net/gqss/</a></li>
+<li>音乐狂网页版：<a href="http://music.junyuewl.com/">http://music.junyuewl.com/</a></li>
+<li>音乐解析下载网：<a href="http://music.zhuolin.wang/">http://music.zhuolin.wang/</a></li>
+<li>MKOnlinePlayer：<a href="http://music.fooor.cn/">http://music.fooor.cn/</a></li>
+<li>天天静听：<a href="http://47.112.23.238/music">http://47.112.23.238/music</a></li>
+</ul>
+]]></summary>
         <content type="html"><![CDATA[<ul>
-<li>
-<p>墨灵音乐：<a href="https://music.mli.im/music.web">https://music.mli.im/music.web</a></p>
-</li>
-<li>
-<p>音乐聚合：<a href="http://www.gequdaquan.net/gqss/">http://www.gequdaquan.net/gqss/</a></p>
-</li>
-<li>
-<p>音乐狂网页版：<a href="http://music.junyuewl.com/">http://music.junyuewl.com/</a></p>
-</li>
-<li>
-<p>音乐解析下载网：<a href="http://music.zhuolin.wang/">http://music.zhuolin.wang/</a></p>
-</li>
-<li>
-<p>MKOnlinePlayer：<a href="http://music.fooor.cn/">http://music.fooor.cn/</a></p>
-</li>
-<li>
-<p>天天静听：<a href="http://47.112.23.238/music">http://47.112.23.238/music</a></p>
-</li>
-<li>
-<p>煎饼搜音乐下载网：<a href="http://www.jbsou.cn/">http://www.jbsou.cn/</a></p>
-</li>
-<li>
-<p>音乐免费下载工具：<a href="https://music.sounm.com/">https://music.sounm.com/</a></p>
-</li>
-<li>
-<p>无损音乐交流：<a href="https://m.sq688.com/">https://m.sq688.com/</a></p>
-</li>
-<li>
-<p>无损音乐下载<a href="http://www.wsyyxz.com/">http://www.wsyyxz.com/</a></p>
-</li>
-<li>
-<p>果核音乐搜索<a href="https://music.ghpym.com/">https://music.ghpym.com/</a></p>
-</li>
-<li>
-<p>MYFREEMP3：<a href="http://lab.liumingye.cn/api/">http://lab.liumingye.cn/api/</a>（若要密码，输入：greasy）</p>
-</li>
+<li>墨灵音乐：<a href="https://music.mli.im/music.web">https://music.mli.im/music.web</a></li>
+<li>音乐聚合：<a href="http://www.gequdaquan.net/gqss/">http://www.gequdaquan.net/gqss/</a></li>
+<li>音乐狂网页版：<a href="http://music.junyuewl.com/">http://music.junyuewl.com/</a></li>
+<li>音乐解析下载网：<a href="http://music.zhuolin.wang/">http://music.zhuolin.wang/</a></li>
+<li>MKOnlinePlayer：<a href="http://music.fooor.cn/">http://music.fooor.cn/</a></li>
+<li>天天静听：<a href="http://47.112.23.238/music">http://47.112.23.238/music</a></li>
+</ul>
+<!-- more -->
+<ul>
+<li>煎饼搜音乐下载网：<a href="http://www.jbsou.cn/">http://www.jbsou.cn/</a></li>
+<li>音乐免费下载工具：<a href="https://music.sounm.com/">https://music.sounm.com/</a></li>
+</ul>
+<!-- more -->
+<ul>
+<li>无损音乐交流：<a href="https://m.sq688.com/">https://m.sq688.com/</a></li>
+<li>无损音乐下载<a href="http://www.wsyyxz.com/">http://www.wsyyxz.com/</a></li>
+<li>果核音乐搜索<a href="https://music.ghpym.com/">https://music.ghpym.com/</a></li>
+<li>MYFREEMP3：<a href="http://lab.liumingye.cn/api/">http://lab.liumingye.cn/api/</a>（若要密码，输入：greasy）</li>
 </ul>
 <h3 id="推荐后面四个">推荐后面四个</h3>
 <blockquote>
-<p>音乐下载网站仅作分享，不分排序。请尊重版权</p>
+<p>音乐下载网站不分排序，仅作分享，用于学习和交流。请尊重正版音乐版权</p>
 </blockquote>
 ]]></content>
     </entry>
