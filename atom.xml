@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-23T13:26:45.957Z</updated>
+    <updated>2019-09-29T15:09:33.540Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -16,10 +16,8 @@
         <link href="https://luobin5.github.io/post/msdn">
         </link>
         <updated>2019-09-15T11:00:32.000Z</updated>
-        <content type="html"><![CDATA[<p>相信很多人都知道可以在<a href="https://msdn.itellyou.cn/">MSDN</a>网站下载到正版纯净的Windows镜像，但是可能有些人却对一堆的版本有点懵，不知道下载哪一个。下面是我自己通过搜索后，集合简化成的图片解析。不一定完全正确，仅供参考。</p>
-<ul>
-<li>Win7</li>
-</ul>
+        <summary type="html"><![CDATA[<p>相信很多人都知道可以在<a href="https://msdn.itellyou.cn/">MSDN</a>网站下载到正版纯净的Windows镜像，但是可能有些人却对一堆的版本有点懵，不知道下载哪一个。下面是我自己通过搜索后，集合简化成的图片解析。不一定完全正确，仅供参考。</p>
+<h2 id="win7">Win7</h2>
 <figure data-type="image" tabindex="1"><img src="https://luobin5.github.io/post-images/1568547755754.png" alt=""></figure>
 <blockquote>
 <p>Enterprise（企业版）、Home Basic（家庭普通版）、Home Premium（家庭高级版）、Professional（专业版）、Starter（入门版）、Ultimate（旗舰版）<br>
@@ -27,9 +25,18 @@ x86（32位）、x64（64位）<br>
 VL Build（批量授权(许可)版）</p>
 </blockquote>
 <p>个人觉得Win7下载带有补丁的版本比较好，因为安装不带补丁版本的系统可能在开机后，相对带有补丁版本系统会有更多的更新。</p>
-<ul>
-<li>Win10</li>
-</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>相信很多人都知道可以在<a href="https://msdn.itellyou.cn/">MSDN</a>网站下载到正版纯净的Windows镜像，但是可能有些人却对一堆的版本有点懵，不知道下载哪一个。下面是我自己通过搜索后，集合简化成的图片解析。不一定完全正确，仅供参考。</p>
+<h2 id="win7">Win7</h2>
+<figure data-type="image" tabindex="1"><img src="https://luobin5.github.io/post-images/1568547755754.png" alt=""></figure>
+<blockquote>
+<p>Enterprise（企业版）、Home Basic（家庭普通版）、Home Premium（家庭高级版）、Professional（专业版）、Starter（入门版）、Ultimate（旗舰版）<br>
+x86（32位）、x64（64位）<br>
+VL Build（批量授权(许可)版）</p>
+</blockquote>
+<p>个人觉得Win7下载带有补丁的版本比较好，因为安装不带补丁版本的系统可能在开机后，相对带有补丁版本系统会有更多的更新。</p>
+<!-- more -->
+<h2 id="win10">Win10</h2>
 <p><img src="https://luobin5.github.io/post-images/1568545794196.png" alt=""><br>
 Multiple Editions可能只包括家庭版和专业版</p>
 <p>以下面这个镜像名称为例子进行解析<br>
@@ -144,32 +151,8 @@ Chinese-Simplified：中文简体</p>
 </ul>
 <h3 id="推荐后面四个">推荐后面四个</h3>
 <blockquote>
-<p>音乐下载网站不分排序，仅作分享，用于学习和交流。请尊重正版音乐版权</p>
+<p>音乐下载网站不分排序，仅作分享，用于学习和交流。请尊重自觉音乐版权！</p>
 </blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[影视资源采集网]]></title>
-        <id>https://luobin5.github.io/post/movies1</id>
-        <link href="https://luobin5.github.io/post/movies1">
-        </link>
-        <updated>2019-09-10T08:52:30.000Z</updated>
-        <content type="html"><![CDATA[<p>想追着更新看电视电影？不想下载几G的视频文件？收藏了一大堆在线影视网站，但是网站一堆广告不小心就会点到？</p>
-<p>下面是一些影视资源采集网，很多在线影视网站（在线影院）的资源都来自这些网站。通过这些资源采集网，你就可以“免广告”更快在线追剧看电影！</p>
-<ul>
-<li>131资源：<a href="http://131zy.vip/">http://131zy.vip/</a></li>
-<li>156资源：<a href="http://1156zy.com/">http://1156zy.com/</a></li>
-<li>OK资源：<a href="http://www.okzy.co/">http://www.okzy.co/</a></li>
-<li>资源片：<a href="http://www.ziyuanpian.net/">http://www.ziyuanpian.net/</a></li>
-<li>酷酷资源：<a href="http://www.kukuzy.com/">http://www.kukuzy.com/</a></li>
-<li>永久资源：<a href="http://www.yongjiuzy.cc/">http://www.yongjiuzy.cc/</a></li>
-<li>最大资源网：<a href="http://tool.liumingye.cn/yszy/">http://tool.liumingye.cn/yszy/</a></li>
-</ul>
-<blockquote>
-<p>以上网站不分排序，因为是在线视频，清晰度一般最高为高清。如果想要追求更好的清晰度，请到其它影视下载网站下载观看。</p>
-</blockquote>
-<h3 id="注意视频中可能会有广告请切勿相信"><strong>注意</strong>：视频中可能会有广告，请切勿相信！！！</h3>
-<p>请自觉遵守国家互联网相关法规，自觉抵制不良信息，健康文明上网。</p>
 ]]></content>
     </entry>
     <entry>
