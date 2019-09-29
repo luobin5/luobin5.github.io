@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luobin5.github.io</id>
     <title>洛滨</title>
-    <updated>2019-09-29T15:15:05.177Z</updated>
+    <updated>2019-09-29T15:18:18.019Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luobin5.github.io"/>
     <link rel="self" href="https://luobin5.github.io/atom.xml"/>
@@ -10,6 +10,33 @@
     <logo>https://luobin5.github.io/images/avatar.png</logo>
     <icon>https://luobin5.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 洛滨</rights>
+    <entry>
+        <title type="html"><![CDATA[MSDN1]]></title>
+        <id>https://luobin5.github.io/post/msdn1</id>
+        <link href="https://luobin5.github.io/post/msdn1">
+        </link>
+        <updated>2019-09-15T11:17:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>相信很多人都知道可以在<a href="https://msdn.itellyou.cn/">MSDN</a>网站下载到正版纯净的Windows镜像，但是可能有些人却对一堆的版本有点懵，不知道下载哪一个。下面是我自己通过搜索后，集合简化成的图片解析。不一定完全正确，仅供参考。</p>
+<h2 id="win7">Win7</h2>
+<figure data-type="image" tabindex="1"><img src="https://luobin5.github.io/post-images/1568547755754.png" alt=""></figure>
+<blockquote>
+<p>Enterprise（企业版）、Home Basic（家庭普通版）、Home Premium（家庭高级版）、Professional（专业版）、Starter（入门版）、Ultimate（旗舰版）<br>
+x86（32位）、x64（64位）<br>
+VL Build（批量授权(许可)版）</p>
+</blockquote>
+<p>个人觉得Win7下载带有补丁的版本比较好，因为安装不带补丁版本的系统可能在开机后，相对带有补丁版本系统会有更多的更新。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>相信很多人都知道可以在<a href="https://msdn.itellyou.cn/">MSDN</a>网站下载到正版纯净的Windows镜像，但是可能有些人却对一堆的版本有点懵，不知道下载哪一个。下面是我自己通过搜索后，集合简化成的图片解析。不一定完全正确，仅供参考。</p>
+<h2 id="win7">Win7</h2>
+<figure data-type="image" tabindex="1"><img src="https://luobin5.github.io/post-images/1568547755754.png" alt=""></figure>
+<blockquote>
+<p>Enterprise（企业版）、Home Basic（家庭普通版）、Home Premium（家庭高级版）、Professional（专业版）、Starter（入门版）、Ultimate（旗舰版）<br>
+x86（32位）、x64（64位）<br>
+VL Build（批量授权(许可)版）</p>
+</blockquote>
+<p>个人觉得Win7下载带有补丁的版本比较好，因为安装不带补丁版本的系统可能在开机后，相对带有补丁版本系统会有更多的更新。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MSDN的Windows镜像名解析]]></title>
         <id>https://luobin5.github.io/post/msdn</id>
