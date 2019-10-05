@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>个人网盘下载文件说明 | 洛滨</title>
+<meta name="description" content="洛滨的个人博客">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://luobin5.github.io/favicon.ico?v=1570243218500">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://luobin5.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://luobin5.github.io">
+        <img class="avatar" src="https://luobin5.github.io/images/avatar.png?v=1570243218500" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://luobin5.github.io">
+        <h1 class="site-title">洛滨</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+        
+          <a href="https://luobin5.github.io/post/friends/" class="menu purple-link">
+            友链
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">个人网盘下载文件说明</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-10-05</span>
+            
+          </div>
+          <div class="post-content">
+            <p>其实下载很简单，一般浏览器下载文件名称都是download.aspx，在下载前或者下载后修改为你当前所下载文件的实际名称即可（可以下载前复制文件名以及后缀，方便修改。当然你可以随意自定义，不过记得后缀要修改为原文件后缀）<br>
+<img src="https://luobin5.github.io/post-images/1570242453334.jpg" alt=""><br>
+<img src="https://luobin5.github.io/post-images/1570242464728.jpg" alt=""></p>
+<blockquote>
+<p>使用ADM内置浏览器或者其它浏览器访问本网盘调用ADM下载可获得实际文件名，更加方便。</p>
+</blockquote>
+<h2 id="下面是一些可能会遇到的其它问题">下面是一些可能会遇到的其它问题</h2>
+<h3 id="1-一般来说adm下载文件前有一个短暂的解析过程此时文件名称也是downloadaspx不过此过程一般非常短暂-若你在此时点击了开始下载那么文件名同样为downloadaspx">1. 一般来说，ADM下载文件前有一个短暂的解析过程，此时文件名称也是download.aspx，不过此过程一般非常短暂。若你在此时点击了开始下载，那么文件名同样为download.aspx。</h3>
+<h3 id="2-若下载时有adm文件已存在已下载目录中的提示一般来说表明你之前使用adm下载了这个文件可以在adm或者文件管理查看不需再次下载此文件-若纯属巧合之前使用adm下载了同名文件或者之前使用adm下载此文件失败了可在下载前稍微随意修改文件名即可开始下载">2. 若下载时有“ADM：文件已存在已下载目录中”的提示，一般来说表明你之前使用ADM下载了这个文件，可以在ADM或者文件管理查看，不需再次下载此文件。若纯属巧合之前使用ADM下载了同名文件，或者之前使用ADM下载此文件失败了，可在下载前稍微随意修改文件名即可开始下载。</h3>
+<p>若你有清理的强迫症，可在ADM里面删除你先前下载的同名或者失败文件（记得同时删除本地文件，若是有用的同名文件不要删除本地文件，请在下载前修改文件名）<br>
+<img src="https://luobin5.github.io/post-images/1570242614135.jpg" alt=""><br>
+<img src="https://luobin5.github.io/post-images/1570242623817.jpg" alt=""></p>
+<h3 id="这种情况特别是在你手快下载了名称为downloadaspx的文件时会一直发生-因为使用adm下载此网盘的每一个文件时那个短暂的解析过程文件名称都是downloadaspx此时它就会提示adm文件已存在已下载目录中-不过解析后当出现正确的文件名时你点开始下载不会有任何问题">这种情况，特别是在你手快下载了名称为download.aspx的文件时，会一直发生。因为使用ADM下载此网盘的每一个文件时那个短暂的解析过程，文件名称都是download.aspx，此时它就会提示“ADM：文件已存在已下载目录中”。不过解析后当出现正确的文件名时，你点开始下载不会有任何问题。</h3>
+<p>如果你有强迫症，不希望看到这此提示，还是建议你去ADM删除掉掉download.aspx的下载记录（本地文件），不然你会一直看到此提示。如果用的不是ADM，有一些下载器会自动在文件名后添加-“数字”，不会有文件已存在的提示。<br>
+<img src="https://luobin5.github.io/post-images/1570242709642.jpg" alt=""><br>
+<img src="https://luobin5.github.io/post-images/1570242842650.jpg" alt=""></p>
+<h3 id="3-若点击文件没有正常出现下载提示而是跳转到一个英文错误error网页此时可以直接复制当前浏览器地址去下载器新建下载-若下载失败服务器拒绝访问可以回去刷新网页重新下载刷新后还是无法正常下载的话请过一段时间再访问本网盘下载文件">3. 若点击文件没有正常出现下载提示，而是跳转到一个英文错误(error)网页，此时可以直接复制当前浏览器地址去下载器新建下载。若下载失败（服务器拒绝访问），可以回去刷新网页重新下载,刷新后还是无法正常下载的话，请过一段时间再访问本网盘下载文件。</h3>
+<h3 id="该说明同样适用于此类oneindex下载站"><strong>该说明同样适用于此类OneIndex下载站</strong></h3>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://luobin5.github.io/post/msdn">
+              <h3 class="post-title">
+                下一篇：MSDN的Windows镜像名解析
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">洛滨的个人博客</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://luobin5.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'c078c3ab9823db7a6ebc',
+        clientSecret: '2d4deffede386006c00872a10fe3e78b37b9d3e0',
+        repo: 'gittalkContact',
+        owner: 'luobin5',
+        admin: ['luobin5'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
