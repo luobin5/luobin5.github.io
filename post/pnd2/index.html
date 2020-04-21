@@ -157,43 +157,70 @@
         <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
             <figure class="animate-box">
                 
-                    <img src="https://luobin5.github.io/post-images/markdown2.jpg" alt="博客常用Markdown语法(2)" class="img-responsive">
+                    <img src="https://luobin5.github.io/post-images/pnd2.jpg" alt="Heroku＋OneManager搭建Onedrive目录列表个人网盘(2)" class="img-responsive">
                 
             </figure>
             <span class="fh5co-meta animate-box">
                 
             </span>
-            <h2 class="fh5co-article-title animate-box">博客常用Markdown语法(2)</h2>
+            <h2 class="fh5co-article-title animate-box">Heroku＋OneManager搭建Onedrive目录列表个人网盘(2)</h2>
             <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
-                <li>2020-04-20</li>
-                <li>121字</li>
-                <li>1 min read</li>
+                <li>2020-04-21</li>
+                <li>714字</li>
+                <li>3 min read</li>
             </ol>
 
             <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
                 <div class="row">
                     <div class="col-md-12 animate-box post-content">
-                        <p> <p>1.字体大小<br>
-<font size=1>字体大小1</font><br>
-<font size=2>字体大小2</font><br>
-<font size=3>字体大小3</font><br>
-<font size=4>字体大小4</font><br>
-<font size=5>字体大小5</font><br>
-主题默认正文字体大小对比<br>
-写法：</p>
-<pre><code>&lt;font size=1&gt;字体大小1&lt;/font&gt;
-&lt;font size=2&gt;字体大小2&lt;/font&gt;
-&lt;font size=3&gt;字体大小3&lt;/font&gt;
-&lt;font size=4&gt;字体大小4&lt;/font&gt;
-&lt;font size=5&gt;字体大小5&lt;/font&gt;
-主题默认正文字体大小对比
-</code></pre>
+                        <p> <p><font size=4>接上篇<a href="https://luobin5.github.io/post/pnd1">Heroku＋OneManager搭建Onedrive目录列表个人网盘(1)</a>，这篇继续讲安装</font></p>
+<ul>
+<li>部署成功后，滑回顶部点击Open APP即可看到安装界面，此时的网址也就是你的网盘地址，可以收藏和复制分享<img src="https://luobin5.github.io/post-images/1587455627062.jpg" alt="" loading="lazy"></li>
+<li>点击Open APP后跳转到安装界面<img src="https://luobin5.github.io/post-images/1587455688098.jpg" alt="" loading="lazy"></li>
+<li>点击开始安装程序，然后点新建API Key<img src="https://luobin5.github.io/post-images/1587455743080.jpg" alt="" loading="lazy"></li>
+<li>新建API Key后会跳转，滑动找到API Key如下图所示，点右上角的Reveal，全选复制API Key<br>
+要点击Reveal显示后才可以全选复制<img src="https://luobin5.github.io/post-images/1587455772491.jpg" alt="" loading="lazy"></li>
+<li>复制后返回<code>粘贴API Key</code>，并且<code>设置管理密码</code>（不设置管理密码不显示登录页面且无法登录），然后确认，即可看到以下界面（还没有添加Onedrive盘，所以截图下面一截是空白的）<img src="https://luobin5.github.io/post-images/1587455943024.jpg" alt="" loading="lazy"></li>
+<li>点击上图的左上角登录填写管理密码，然后可看到下图，添加Onedrive盘<img src="https://luobin5.github.io/post-images/1587456077612.jpg" alt="" loading="lazy"></li>
+</ul>
+<blockquote>
+<ul>
+<li>选择你要添加的Onedrive盘账号，我这里是第一个MS:国际版，勾选自己申请应用ID与机密，然后点击申请应用ID与机密，登录你要添加的Onedrive盘账号，可以看到正在申请你的应用ID与机密，如下图一二三所示</li>
+<li>图一<img src="https://luobin5.github.io/post-images/1587456220487.jpg" alt="" loading="lazy"></li>
+<li>图二正在申请应用ID与机密<img src="https://luobin5.github.io/post-images/1587456330565.jpg" alt="" loading="lazy"></li>
+<li>图三出现<code>请保存你的应用机密</code>，记得<code>复制机密</code><img src="https://luobin5.github.io/post-images/1587456410559.jpg" alt="" loading="lazy"></li>
+</ul>
+</blockquote>
+<ul>
+<li><code>注意</code>：复制完机密后特别注意，点击<code>知道了，返回到快速启动</code>，这时要耐心等待，看到以下界面继续划到下面找到应用ID进行复制<img src="https://luobin5.github.io/post-images/1587456482839.jpg" alt="" loading="lazy"></li>
+<li><code>复制应用ID</code><img src="https://luobin5.github.io/post-images/1587456546574.jpg" alt="" loading="lazy"></li>
+<li>复制完机密和应用ID后一直返回到填写应用ID与机密的界面，<code>client_secret粘贴机密</code>，<code>client_id粘贴应用ID</code>，Onedrive标签和显示名称可以随意填写，然后确认即可<img src="https://luobin5.github.io/post-images/1587456582845.jpg" alt="" loading="lazy"></li>
+</ul>
+<blockquote>
+<ul>
+<li>点击确认后网页会自行进行各种设置，按提示稍等即可，会自动跳转回到首页</li>
+<li>稍等3秒<img src="https://luobin5.github.io/post-images/1587456849595.jpg" alt="" loading="lazy"></li>
+<li>点<code>接受</code><img src="https://luobin5.github.io/post-images/1587456909091.jpg" alt="" loading="lazy"></li>
+<li>等5秒<img src="https://luobin5.github.io/post-images/1587456942521.jpg" alt="" loading="lazy"></li>
+</ul>
+</blockquote>
+<p>  <font size=4>等待5秒后会跳转到首页，你的Onedrive网盘本来有文件的话就可以看到Onedrive#文件目录列表了,有REDME.md也会在首页显示出来。OneManager其他的管理以及设置自行研究，教程结束，最后附上我部署好不久的网盘<a href="https://luobinpnd.herokuapp.com/">Luobin's PND</a><br>
+  Heroku＋OneManager的优点：可以说完全永久免费，而租借云服务器、云主机有点贵，免费的主机没有安全保障（在能申请免费主机的小网站实名可能会泄露个人信息，而且不知道什么时候会关闭了）。但是使用Heroku免费，不用实名，还提供域名，不用备案。缺点就是网站访问响应有点慢，某些时候某些地区的移动或者WIFI网络下载东西可能特别慢</font></p>
  </p>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-12 animate-box">
+                        
+                            <div class="next-post">
+                                <div class="next">下一篇</div>
+                                <a href="https://luobin5.github.io/post/pnd1/">
+                                    <h3 class="post-title">
+                                        Heroku＋OneManager搭建Onedrive目录列表个人网盘(1)
+                                    </h3>
+                                </a>
+                            </div>
                         
                     </div>
                 </div>
