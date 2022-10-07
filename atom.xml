@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://luobin5.github.io</id>
+    <title>Luobin</title>
+    <updated>2022-10-07T02:54:04.830Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://luobin5.github.io"/>
+    <link rel="self" href="https://luobin5.github.io/atom.xml"/>
+    <subtitle>What a beautiful life</subtitle>
+    <logo>https://luobin5.github.io/images/avatar.png</logo>
+    <icon>https://luobin5.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Luobin</rights>
+    <entry>
+        <title type="html"><![CDATA[Heroku＋OneManager搭建Onedrive目录列表个人网盘(2)]]></title>
+        <id>https://luobin5.github.io/post/pnd2/</id>
+        <link href="https://luobin5.github.io/post/pnd2/">
+        </link>
+        <updated>2020-04-21T07:46:29.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博客常用Markdown语法(2)]]></title>
+        <id>https://luobin5.github.io/post/markdown2/</id>
+        <link href="https://luobin5.github.io/post/markdown2/">
+        </link>
+        <updated>2020-04-20T14:01:52.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heroku＋OneManager搭建Onedrive目录列表个人网盘(1)]]></title>
+        <id>https://luobin5.github.io/post/pnd1/</id>
+        <link href="https://luobin5.github.io/post/pnd1/">
+        </link>
+        <updated>2020-04-20T02:02:31.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heroku注册——超详细]]></title>
+        <id>https://luobin5.github.io/post/heroku/</id>
+        <link href="https://luobin5.github.io/post/heroku/">
+        </link>
+        <updated>2020-04-19T15:36:50.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博客常用Markdown语法(1)]]></title>
+        <id>https://luobin5.github.io/post/markdown1/</id>
+        <link href="https://luobin5.github.io/post/markdown1/">
+        </link>
+        <updated>2020-04-09T12:30:44.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MSDN的Windows镜像名解析]]></title>
+        <id>https://luobin5.github.io/post/msdn/</id>
+        <link href="https://luobin5.github.io/post/msdn/">
+        </link>
+        <updated>2019-09-15T11:00:32.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ROM下载集合]]></title>
+        <id>https://luobin5.github.io/post/rom/</id>
+        <link href="https://luobin5.github.io/post/rom/">
+        </link>
+        <updated>2019-09-15T09:19:28.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[音乐下载网站]]></title>
+        <id>https://luobin5.github.io/post/music1/</id>
+        <link href="https://luobin5.github.io/post/music1/">
+        </link>
+        <updated>2019-09-10T11:08:21.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>墨灵音乐：<a href="https://music.mli.im/music.web">https://music.mli.im/music.web</a></li>
+<li>音乐聚合：<a href="http://www.gequdaquan.net/gqss/">http://www.gequdaquan.net/gqss/</a></li>
+<li>音乐狂网页版：<a href="http://music.junyuewl.com/">http://music.junyuewl.com/</a></li>
+<li>音乐解析下载网：<a href="http://music.zhuolin.wang/">http://music.zhuolin.wang/</a></li>
+<li>MKOnlinePlayer：<a href="http://music.fooor.cn/">http://music.fooor.cn/</a></li>
+<li>天天静听：<a href="http://47.112.23.238/music">http://47.112.23.238/music</a></li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>墨灵音乐：<a href="https://music.mli.im/music.web">https://music.mli.im/music.web</a></li>
+<li>音乐聚合：<a href="http://www.gequdaquan.net/gqss/">http://www.gequdaquan.net/gqss/</a></li>
+<li>音乐狂网页版：<a href="http://music.junyuewl.com/">http://music.junyuewl.com/</a></li>
+<li>音乐解析下载网：<a href="http://music.zhuolin.wang/">http://music.zhuolin.wang/</a></li>
+<li>MKOnlinePlayer：<a href="http://music.fooor.cn/">http://music.fooor.cn/</a></li>
+<li>天天静听：<a href="http://47.112.23.238/music">http://47.112.23.238/music</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[百度网盘满速技巧手机篇（3）Pandownlaod]]></title>
+        <id>https://luobin5.github.io/post/baidu3/</id>
+        <link href="https://luobin5.github.io/post/baidu3/">
+        </link>
+        <updated>2019-09-06T09:51:28.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[百度网盘满速技巧手机篇（2）度享链+ADM]]></title>
+        <id>https://luobin5.github.io/post/baidu2/</id>
+        <link href="https://luobin5.github.io/post/baidu2/">
+        </link>
+        <updated>2019-08-25T13:26:24.000Z</updated>
+    </entry>
+</feed>
